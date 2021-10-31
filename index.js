@@ -126,7 +126,7 @@ function validate() {
     //alert('Gender can not be and female');
     message.push('pls enter your mail');
     console.log('you are not correct');
-    error.innerHTML = 'Gender can not be Male and Female';
+    error.innerHTML = 'pls select a Gender';
     return false;
   } else {
     error.innerHTML = ' ';
